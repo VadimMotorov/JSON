@@ -1,4 +1,4 @@
-
+ 
 //26. Создать переменную “age_1” и присвоить ей значение 10
 //27. Создать переменную “age_2” и присвоить ей значение 18
 //28. Создать переменную “age_3” и присвоить ей значение 60
@@ -73,8 +73,7 @@ function checkAge(age) {
 const age_1 = 18
 const age_2 = 60
 const checkAge3 = function(age) {
- console.log(age)
- if (age && !isNaN(age)){
+  if (age && !isNaN(age)){
      if (age < age_1){
     console.log("You don’t have access cause your age is " + age + ". It’s less then 18");
    } else if (age >= age_1 && age < age_2){
